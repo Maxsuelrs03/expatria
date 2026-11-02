@@ -291,6 +291,21 @@ footer a{color:#C9D2E3}
 .offer .steps3{color:var(--on-navy-2)}
 .offer .steps3 b{color:#fff}
 #qz,#oferta{scroll-margin-top:84px}
+
+.proof{margin-top:30px}
+.proof .ph{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.proof h3{color:#fff;font-size:20px;margin:0}
+.proof .disc{font-size:12.5px;color:var(--on-navy-2)}
+.track{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:14px 0 10px;scrollbar-width:thin}
+.pc{flex:0 0 272px;scroll-snap-align:start;background:#fff;color:#33405C;border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px;font-size:14.5px;line-height:1.45}
+.pc .top2{display:flex;align-items:center;gap:10px}
+.pc .cc{font-family:var(--mono);font-weight:600;font-size:12px;letter-spacing:.08em;color:#C8352B;border:1.5px solid #C8352B;border-radius:6px;padding:3px 6px}
+.pc b{color:#1B2A4A;font-family:var(--display);font-size:16px}
+.pc .big{font-family:var(--display);font-weight:900;font-size:34px;color:#1B2A4A;line-height:1}
+.pc a{margin-top:auto;font-size:12px;color:#5A6680}
+.proof .nav{display:flex;gap:8px}
+.proof .nav button{all:unset;cursor:pointer;width:34px;height:34px;border-radius:50%;border:1.5px solid rgba(255,255,255,.35);color:#fff;display:grid;place-items:center;font-size:16px}
+@media (max-width:640px){.proof .nav{display:none}.track{margin-inline:calc(-1 * max(20px, env(safe-area-inset-left, 0px)));padding-inline:max(20px, env(safe-area-inset-left, 0px))}.pc{flex-basis:78%}}
 </style>
 
 <header class="top">
@@ -333,6 +348,7 @@ footer a{color:#C9D2E3}
       <span class="eyebrow">Do resultado ao plano</span>
       <h2 id="offerH">Saber o país é o começo. O Rota Rápida mostra o caminho inteiro.</h2>
       <p class="lead" id="offerL">O teste aponta a direção. O guia mostra, país por país, o visto certo, os documentos na ordem, quanto custa cada cidade e o que fazer nos primeiros 30 dias, com fonte oficial em tudo.</p>
+      <div class="proof"><div class="ph"><h3>Gente comum que já fez esse caminho</h3><div class="nav"><button type="button" data-d="-1" aria-label="Anterior">←</button><button type="button" data-d="1" aria-label="Próximo">→</button></div></div><div class="track" id="track"><article class="pc" data-r="all"><div class="top2"><span class="cc">BR</span></div><span class="big">5 milhões</span><span>de brasileiros já vivem fora do país. Em um ano, quase 400 mil a mais.</span><a href="https://www.diariodepernambuco.com.br/noticia/brasil/2024/07/numero-de-brasileiros-no-exterior-sobe-e-atinge-4-9-milhoes-em-2023.html" target="_blank" rel="noopener">Fonte: Itamaraty, estimativa 2023</a></article><article class="pc" data-r="merc"><div class="top2"><span class="cc">AR</span></div><b>Iasmin Souza, 30, psicóloga</b><span>Saiu de Salvador para a Argentina em 2022. Diz que se sente segura e que a renda em reais rende muito mais por lá.</span><a href="https://www.itatiaia.com.br/mundo/apesar-da-grave-crise-economica-imigracao-segue-em-alta-para-a-argentina/" target="_blank" rel="noopener">Fonte: Itatiaia, jan. 2023</a></article><article class="pc" data-r="merc"><div class="top2"><span class="cc">AR</span></div><b>Maria Zilda Gramacho, 35</b><span>Foi com o marido de Salvador para a Argentina. Os dois trabalham à distância, ela recebendo em dólar, e contam que a família ganhou qualidade de vida.</span><a href="https://www.itatiaia.com.br/mundo/apesar-da-grave-crise-economica-imigracao-segue-em-alta-para-a-argentina/" target="_blank" rel="noopener">Fonte: Itatiaia, jan. 2023</a></article><article class="pc" data-r="lat"><div class="top2"><span class="cc">ES</span></div><b>Ana Carolina Braga, professora</b><span>Na Espanha, a residência saiu em menos de 3 meses, já com saúde pública, conta no banco e escola para a filha.</span><a href="https://dnbrasil.dn.pt/insegurana-jurdica-e-xenofobia-por-que-brasileiros-deixaram-portugal-por-espanha" target="_blank" rel="noopener">Fonte: DN Brasil, ago. 2026</a></article><article class="pc" data-r="euq"><div class="top2"><span class="cc">DE</span></div><b>Thaiana Santos, 29, enfermeira</b><span>Saiu do Rio. Foi recrutada por empresa paga pelos hospitais, com aulas de alemão e visto incluídos. Hoje trabalha em Berlim e não pensa em voltar.</span><a href="https://www.terra.com.br/noticias/por-que-alemanha-atrai-profissionais-de-enfermagem-do-brasil,8c98ac7e366323c499df47f7b62843c3faeiox3d.html" target="_blank" rel="noopener">Fonte: DW, jun. 2023</a></article><article class="pc" data-r="euq"><div class="top2"><span class="cc">DE</span></div><b>Ana Pereira, enfermeira</b><span>Estudou alemão até o nível B2 e trabalha no pronto-socorro de um hospital em Offenbach desde 2023. O marido foi junto pela reunião familiar.</span><a href="https://www.deutschland.de/pt-br/topic/economia/mao-de-obra-qualificada-trabalhar-como-enfermeira-na-alemanha" target="_blank" rel="noopener">Fonte: deutschland.de, dez. 2023</a></article></div><p class="disc">Casos e dados publicados na imprensa. Essas pessoas não são clientes da Ex-Pátria, e cada trajetória depende do perfil de quem vai.</p></div>
       <div class="ticket">
         <div class="main">
           <span style="font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:#C8352B;font-weight:600">EX-PÁTRIA · ROTA RÁPIDA</span>
@@ -415,6 +431,7 @@ footer a{color:#C9D2E3}
     document.getElementById("offerH").textContent="Seu destino: "+r.p+". Agora, o passo a passo para chegar lá.";
     document.getElementById("offerL").textContent="Você já sabe para onde ir, quanto juntar e o primeiro passo. O Rota Rápida mostra o resto, na ordem, com fonte oficial em tudo.";
     document.getElementById("offerFirst").textContent=r.c;
+    var tr=document.getElementById("track");[].slice.call(tr.children).filter(function(c){return c.dataset.r===k;}).reverse().forEach(function(c){tr.insertBefore(c,tr.firstChild);});tr.scrollLeft=0;
     ev("QuizComplete",{rota:k});
   }
   steps.forEach(function(s){s.querySelectorAll("button").forEach(function(b){b.addEventListener("click",function(){
@@ -423,6 +440,7 @@ footer a{color:#C9D2E3}
     if(i>=steps.length){qz.scrollIntoView({behavior:"smooth",block:"start"});}
   });});});
   document.querySelectorAll('a.cta[href^="https://pay.cakto"]').forEach(function(a){a.addEventListener("click",function(){ev("CheckoutClick",{rota:pick&&ans.a!=null?pick():"sem-quiz"});});});
+  document.querySelectorAll(".proof .nav button").forEach(function(b){b.onclick=function(){var t=document.getElementById("track");t.scrollBy({left:+b.dataset.d*284,behavior:"smooth"});};});
   var offer=document.getElementById("oferta"),seen=false;
   if("IntersectionObserver" in window){new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting&&!seen){seen=true;ev("OfferView",{rota:ans.a!=null?pick():"sem-quiz"});}});},{threshold:.35}).observe(offer);}
   var sticky=document.getElementById("sticky");
